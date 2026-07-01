@@ -37,7 +37,7 @@ export default function BookingModal({ isOpen, onClose, selectedVehicle }) {
     e.preventDefault();
     
     // Construct WhatsApp message
-    const whatsappNumber = '9663733382'; // Primary contact
+    const whatsappNumber = '9741633398'; // Primary contact
     const text = `*Jai Tours & Travels Booking Inquiry*%0A%0A` +
       `*Name:* ${formData.name}%0A` +
       `*Phone:* ${formData.phone}%0A` +

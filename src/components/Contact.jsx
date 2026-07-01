@@ -19,7 +19,7 @@ export default function Contact({ onBookVehicle }) {
     e.preventDefault();
     
     // Construct WhatsApp message out of contact form
-    const whatsappNumber = '9663733382';
+    const whatsappNumber = '9741633398';
     const text = `*Jai Tours & Travels Contact Form*%0A%0A` +
       `*Name:* ${formData.name}%0A` +
       `*Phone:* ${formData.phone}%0A` +
@@ -75,8 +75,8 @@ export default function Contact({ onBookVehicle }) {
                   </div>
                   <div>
                     <h5 className="text-xs font-semibold text-gray-400 uppercase tracking-wide">Call for Bookings</h5>
-                    <p className="text-sm font-bold text-white mt-1">+91 96637 33382</p>
-                    <p className="text-sm font-bold text-white">+91 70905 54733</p>
+                    <p className="text-sm font-bold text-white mt-1">+91 97416 33398</p>
+                    <p className="text-sm font-bold text-white">+91 96637 33382</p>
                   </div>
                 </div>
 
@@ -87,12 +87,12 @@ export default function Contact({ onBookVehicle }) {
                   <div>
                     <h5 className="text-xs font-semibold text-gray-400 uppercase tracking-wide">WhatsApp Support</h5>
                     <a 
-                      href="https://wa.me/919663733382" 
+                      href="https://wa.me/919741633398" 
                       target="_blank" 
                       rel="noreferrer"
                       className="text-sm font-bold text-white hover:text-brand-orange transition-colors flex items-center gap-1.5 mt-1"
                     >
-                      <span>Click to Chat (+91 9663733382)</span>
+                      <span>Click to Chat (+91 97416 33398)</span>
                     </a>
                   </div>
                 </div>

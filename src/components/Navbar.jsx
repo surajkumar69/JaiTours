@@ -62,11 +62,11 @@ export default function Navbar({ onBookNow }) {
           {/* Quick Contact & Action Buttons */}
           <div className="hidden lg:flex items-center gap-4">
             <a 
-              href="tel:9663733382" 
+              href="tel:9741633398" 
               className="flex items-center gap-2 text-sm font-semibold text-white/90 hover:text-brand-orange transition-colors"
             >
               <Phone size={14} className="text-brand-orange" />
-              <span>9663733382</span>
+              <span>9741633398</span>
             </a>
             <button
               onClick={onBookNow}
@@ -105,11 +105,11 @@ export default function Navbar({ onBookNow }) {
           ))}
           <div className="pt-4 border-t border-white/5 flex flex-col gap-4 px-3">
             <a 
-              href="tel:9663733382" 
+              href="tel:9741633398" 
               className="flex items-center gap-2 text-sm font-medium text-gray-300"
             >
               <Phone size={16} className="text-brand-orange" />
-              <span>+91 9663733382</span>
+              <span>+91 97416 33398</span>
             </a>
             <button
               onClick={() => {

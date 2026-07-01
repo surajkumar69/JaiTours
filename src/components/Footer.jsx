@@ -106,8 +106,8 @@ export default function Footer() {
             <ul className="space-y-3 text-sm text-gray-400">
               <li className="flex flex-col">
                 <span className="text-[10px] uppercase font-bold text-gray-500">Phone Support:</span>
-                <span className="text-white font-semibold mt-0.5">+91 9663733382</span>
-                <span className="text-white font-semibold">+91 7090554733</span>
+                <span className="text-white font-semibold mt-0.5">+91 9741633398</span>
+                <span className="text-white font-semibold">+91 9663733382</span>
               </li>
               <li className="flex flex-col">
                 <span className="text-[10px] uppercase font-bold text-gray-500">Email Address:</span>

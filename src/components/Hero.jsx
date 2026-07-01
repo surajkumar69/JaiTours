@@ -71,11 +71,11 @@ export default function Hero({ onBookNow }) {
               <ArrowRight size={16} className="group-hover:translate-x-1 transition-transform" />
             </button>
             <a
-              href="tel:9663733382"
+              href="tel:9741633398"
               className="w-full sm:w-auto px-8 py-4 bg-white/5 hover:bg-white/10 text-white font-bold rounded-xl border border-white/10 backdrop-blur-sm transition-all flex items-center justify-center gap-2 hover:scale-105 active:scale-95"
             >
               <Phone size={18} className="text-brand-orange" />
-              <span>Call +91 9663733382</span>
+              <span>Call +91 97416 33398</span>
             </a>
           </motion.div>
 
@@ -137,7 +137,7 @@ export default function Hero({ onBookNow }) {
                     Check Vehicles
                   </button>
                   <a 
-                    href="https://wa.me/919663733382" 
+                    href="https://wa.me/919741633398" 
                     target="_blank"
                     rel="noreferrer"
                     className="flex-1 py-3 bg-emerald-600 hover:bg-emerald-700 text-white text-xs font-bold rounded-lg transition-all text-center flex items-center justify-center gap-1.5"

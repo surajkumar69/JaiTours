@@ -103,7 +103,7 @@ export default function Destinations() {
                     {dest.duration}
                   </span>
                   <a 
-                    href="https://wa.me/919663733382" 
+                    href="https://wa.me/919741633398" 
                     target="_blank" 
                     rel="noreferrer"
                     className="text-xs font-bold text-white hover:text-brand-orange transition-colors flex items-center gap-1 group-hover:translate-x-1 transition-transform"
