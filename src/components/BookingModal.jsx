@@ -60,10 +60,20 @@ export default function BookingModal({ isOpen, onClose, selectedVehicle }) {
   };
 
   const vehicles = [
-    'Toyota Innova Crysta',
-    'Force Cruiser Toofan (9-12 Seater)',
+    'Toyota Innova Crysta (6-7 Seater)',
+    'Toyota Innova (6-7 Seater)',
     'Force Urbania (Luxury 17 Seater)',
-    'Deluxe Tourist Bus (30-50 Seater)'
+    'Force Cruiser Toofan (12 Seater)',
+    'Sedan Cars (4+1 Seater - Dzire/Etios)',
+    '12 Seater Executive Coach (AC / Non-AC)',
+    '21 Seater Deluxe Coach (AC / Non-AC)',
+    '25 Seater Deluxe Coach (AC / Non-AC)',
+    '29 Seater Deluxe Coach (AC / Non-AC)',
+    '33 Seater Deluxe Coach (AC / Non-AC)',
+    '35 Seater Deluxe Coach (AC / Non-AC)',
+    '40 Seater Deluxe Coach (2+2 Layout, AC / Non-AC)',
+    '45 Seater Deluxe Coach (2+2 Layout, AC / Non-AC)',
+    '49 Seater Deluxe Coach (AC / Non-AC)'
   ];
 
   return (

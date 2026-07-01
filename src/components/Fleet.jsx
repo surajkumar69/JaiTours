@@ -130,6 +130,112 @@ export default function Fleet({ onBookVehicle }) {
             </div>
           ))}
         </div>
+
+        {/* Seating Capacities Specifications Directory */}
+        <div className="mt-20 p-8 rounded-2xl glass-panel border border-white/5 relative overflow-hidden">
+          <div className="absolute top-0 right-0 w-64 h-64 bg-brand-orange/5 rounded-full blur-3xl animate-pulse" />
+          <div className="absolute bottom-0 left-0 w-64 h-64 bg-brand-navy/15 rounded-full blur-3xl" />
+          
+          <div className="text-center md:text-left mb-8 relative z-10">
+            <h4 className="text-2xl font-bold text-white font-heading mb-2">Complete Seating Capacity & Fleet Directory</h4>
+            <p className="text-sm text-gray-400">
+              We offer a complete range of AC and Non-AC coaches, luxury vans, and premium cabs to accommodate any group size comfortably.
+            </p>
+          </div>
+
+          <div className="overflow-x-auto relative z-10">
+            <table className="w-full text-left border-collapse">
+              <thead>
+                <tr className="border-b border-white/10 text-xs text-brand-orange uppercase font-bold tracking-wider">
+                  <th className="py-4 px-4">Seating Capacity</th>
+                  <th className="py-4 px-4">Vehicle Category & Models</th>
+                  <th className="py-4 px-4">AC / Non-AC Availability</th>
+                  <th className="py-4 px-4">Layout & Comfort Config</th>
+                </tr>
+              </thead>
+              <tbody className="divide-y divide-white/5 text-sm text-gray-300">
+                <tr className="hover:bg-white/5 transition-colors">
+                  <td className="py-4 px-4 font-semibold text-white">49 Seater</td>
+                  <td className="py-4 px-4">Super Deluxe Large Touring Coach</td>
+                  <td className="py-4 px-4"><span className="px-2 py-0.5 rounded bg-emerald-500/10 text-emerald-400 text-xs font-semibold">Both Available</span></td>
+                  <td className="py-4 px-4">Pushback Seats, Air Suspension, LED TV, Fan/AC</td>
+                </tr>
+                <tr className="hover:bg-white/5 transition-colors">
+                  <td className="py-4 px-4 font-semibold text-white">45 Seater</td>
+                  <td className="py-4 px-4">Luxury Multi-Axle Tourist Bus</td>
+                  <td className="py-4 px-4"><span className="px-2 py-0.5 rounded bg-emerald-500/10 text-emerald-400 text-xs font-semibold">Both Available</span></td>
+                  <td className="py-4 px-4">2+2 Seating Layout, Premium Audio System</td>
+                </tr>
+                <tr className="hover:bg-white/5 transition-colors">
+                  <td className="py-4 px-4 font-semibold text-white">40 Seater</td>
+                  <td className="py-4 px-4">Luxury Touring Coach Bus</td>
+                  <td className="py-4 px-4"><span className="px-2 py-0.5 rounded bg-emerald-500/10 text-emerald-400 text-xs font-semibold">Both Available</span></td>
+                  <td className="py-4 px-4">2+2 Seating Layout, Reclining Seats, GPS</td>
+                </tr>
+                <tr className="hover:bg-white/5 transition-colors">
+                  <td className="py-4 px-4 font-semibold text-white">35 Seater</td>
+                  <td className="py-4 px-4">Midi Tourist Bus Coach</td>
+                  <td className="py-4 px-4"><span className="px-2 py-0.5 rounded bg-emerald-500/10 text-emerald-400 text-xs font-semibold">Both Available</span></td>
+                  <td className="py-4 px-4">Pushback Seats, Microphone for Tours, AC/Fan</td>
+                </tr>
+                <tr className="hover:bg-white/5 transition-colors">
+                  <td className="py-4 px-4 font-semibold text-white">33 Seater</td>
+                  <td className="py-4 px-4">Standard Deluxe Touring Coach</td>
+                  <td className="py-4 px-4"><span className="px-2 py-0.5 rounded bg-emerald-500/10 text-emerald-400 text-xs font-semibold">Both Available</span></td>
+                  <td className="py-4 px-4">Clean Cabins, Roof Carrier, Pushback Seating</td>
+                </tr>
+                <tr className="hover:bg-white/5 transition-colors">
+                  <td className="py-4 px-4 font-semibold text-white">29 Seater</td>
+                  <td className="py-4 px-4">Deluxe Minibus Coach</td>
+                  <td className="py-4 px-4"><span className="px-2 py-0.5 rounded bg-emerald-500/10 text-emerald-400 text-xs font-semibold">Both Available</span></td>
+                  <td className="py-4 px-4">Reclining Seats, Fan/AC, Luggage Trunk</td>
+                </tr>
+                <tr className="hover:bg-white/5 transition-colors">
+                  <td className="py-4 px-4 font-semibold text-white">25 Seater</td>
+                  <td className="py-4 px-4">Executive Minibus / Coach</td>
+                  <td className="py-4 px-4"><span className="px-2 py-0.5 rounded bg-emerald-500/10 text-emerald-400 text-xs font-semibold">Both Available</span></td>
+                  <td className="py-4 px-4">Individual AC Vents, Pushback Cushioned Seats</td>
+                </tr>
+                <tr className="hover:bg-white/5 transition-colors">
+                  <td className="py-4 px-4 font-semibold text-white">21 Seater</td>
+                  <td className="py-4 px-4">Midi Deluxe Minivan Coach</td>
+                  <td className="py-4 px-4"><span className="px-2 py-0.5 rounded bg-emerald-500/10 text-emerald-400 text-xs font-semibold">Both Available</span></td>
+                  <td className="py-4 px-4">AC/Non-AC, Reclining Seats, Music System</td>
+                </tr>
+                <tr className="hover:bg-white/5 transition-colors">
+                  <td className="py-4 px-4 font-semibold text-white">12 Seater</td>
+                  <td className="py-4 px-4">Force Tempo Traveller / Executive Coach</td>
+                  <td className="py-4 px-4"><span className="px-2 py-0.5 rounded bg-emerald-500/10 text-emerald-400 text-xs font-semibold">Both Available</span></td>
+                  <td className="py-4 px-4">Luxurious Captain Seats, Roof luggage carrier</td>
+                </tr>
+                <tr className="hover:bg-white/5 transition-colors">
+                  <td className="py-4 px-4 font-semibold text-white">Urbania</td>
+                  <td className="py-4 px-4">Force Urbania Luxury Van</td>
+                  <td className="py-4 px-4"><span className="px-2 py-0.5 rounded bg-orange-500/10 text-brand-orange text-xs font-semibold">AC Equipped</span></td>
+                  <td className="py-4 px-4">Aesthetic Luxury Cabin, Extra Legroom, High Roof</td>
+                </tr>
+                <tr className="hover:bg-white/5 transition-colors">
+                  <td className="py-4 px-4 font-semibold text-white">Innova Crysta</td>
+                  <td className="py-4 px-4">Toyota Innova Crysta</td>
+                  <td className="py-4 px-4"><span className="px-2 py-0.5 rounded bg-orange-500/10 text-brand-orange text-xs font-semibold">AC Equipped</span></td>
+                  <td className="py-4 px-4">Premium Captain Seats, Rear AC, GPS & Airbags</td>
+                </tr>
+                <tr className="hover:bg-white/5 transition-colors">
+                  <td className="py-4 px-4 font-semibold text-white">Innova</td>
+                  <td className="py-4 px-4">Toyota Innova Premium Cab</td>
+                  <td className="py-4 px-4"><span className="px-2 py-0.5 rounded bg-orange-500/10 text-brand-orange text-xs font-semibold">AC Equipped</span></td>
+                  <td className="py-4 px-4">Spacious Boot, Cushioned Captain/Bench Seating</td>
+                </tr>
+                <tr className="hover:bg-white/5 transition-colors">
+                  <td className="py-4 px-4 font-semibold text-white">Sedan Cars</td>
+                  <td className="py-4 px-4">Dzire, Etios (4+1 Seater Cabs)</td>
+                  <td className="py-4 px-4"><span className="px-2 py-0.5 rounded bg-orange-500/10 text-brand-orange text-xs font-semibold">AC Equipped</span></td>
+                  <td className="py-4 px-4">Budget-Friendly, Clean Cab, Chauffeur Driven</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
       </div>
     </section>
   );
